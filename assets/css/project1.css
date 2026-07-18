@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #000;
+  line-height: 1.6;
+}
+
+.project-detail {
+  padding: 4rem 2rem;
+  color: #c18c15;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+.project-image{
+      width: 100%;
+    border-radius: 10px;
+}
+.project-links a {
+  display: inline-block;
+  margin: 1rem;
+  padding: 0.7rem 1.2rem;
+  background: #c18c15;
+  color: #000;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.project-links a:hover {
+  background: #ffdc8a;
+}

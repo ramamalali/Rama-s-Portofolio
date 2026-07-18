@@ -1,0 +1,763 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rama Al-Ali | Front-End Developer</title>
+    <meta
+      name="description"
+      content="Rama Al-Ali — Front-End / Full-Stack Developer specializing in React, Next.js and clean, responsive web experiences. View projects, skills and get in touch."
+    />
+    <meta
+      name="keywords"
+      content="Rama Al-Ali, Front-End Developer, Full-Stack Developer, React Developer, Next.js, Web Developer"
+    />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Rama Al-Ali | Front-End Developer" />
+    <meta
+      property="og:description"
+      content="I bring designs to life in clean, responsive, full-stack code."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./assets/Images/mountain.png" />
+
+    <link rel="icon" type="image/svg+xml" href="./assets/Images/avatar.svg" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <header class="navbar">
+      <a href="#top" class="logo">Rama<span>.</span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#case-studies">Case Studies</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-right">
+        <button
+          class="theme-toggle"
+          id="themeToggle"
+          aria-label="Toggle light/dark mode"
+        >
+          <i class="fas fa-moon"></i>
+        </button>
+        <a href="#contact" class="nav-cta">Hire Me</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="top">
+      <img
+        src="./assets/Images/avatar.svg"
+        alt="Rama Al-Ali"
+        class="hero-avatar"
+      />
+      <span class="availability-badge"
+        ><span class="dot"></span> Open to Work — Remote / Relocate</span
+      >
+      <h1 class="hero-title">Hello, I'm Rama</h1>
+      <p class="subtitle">Front-End Developer</p>
+      <p class="subtitle subtitle-secondary">
+        I bring designs to life — in clean, responsive, full-stack code.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        <a
+          href="./assets/Rama_Muhammed_Al-Ali.pdf"
+          class="btn btn-outline"
+          download
+        >
+          <i class="fas fa-download"></i> Download CV
+        </a>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about" data-aos="fade-up">
+      <h2>About Me</h2>
+      <p class="about-quote">
+        "Good code honors great design — and that's what I aim to deliver."
+      </p>
+      <p class="about-text">
+        I'm a Front-End focused developer with hands-on experience building
+        responsive, user-friendly interfaces with React.js and Next.js, backed
+        by Full-Stack training. I started at Focal X Agency as a Front-End
+        Developer and Training Supervisor, then continued building projects with
+        a remote technical team. Today I work freelance, building web projects
+        independently, and volunteer as a Project Coordinator at Orbit.
+      </p>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <span class="stat-number">8+</span>
+          <span class="stat-label">Projects Delivered</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">100%</span>
+          <span class="stat-label">Responsive Builds</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">3+</span>
+          <span class="stat-label">Years of Experience</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- skills -->
+    <section class="skills" id="skills" data-aos="fade-up">
+      <h2>My Toolbox</h2>
+
+      <div class="skills-category">
+        <h3>Front-End</h3>
+        <div class="skills-grid">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>Bootstrap</span>
+          <span>React.js</span>
+          <span>Next.js</span>
+          <span>Redux</span>
+          <span>Responsive Design</span>
+        </div>
+      </div>
+
+      <div class="skills-category">
+        <h3>Familiar With</h3>
+        <div class="skills-grid">
+          <span>Backend Development</span>
+          <span>RESTful APIs</span>
+          <span>UI/UX</span>
+        </div>
+      </div>
+
+      <div class="skills-category">
+        <h3>Tools & Practices</h3>
+        <div class="skills-grid">
+          <span>Git & GitHub</span>
+          <span>Agile / Scrum</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section
+      class="projects"
+      id="projects"
+      data-aos="fade-up"
+      data-aos-delay="100"
+    >
+      <h2>My Projects</h2>
+
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="dashboard">Dashboard</button>
+        <button class="filter-btn" data-filter="portfolio">Portfolio</button>
+        <button class="filter-btn" data-filter="landing-page">
+          Landing Page
+        </button>
+      </div>
+
+      <div class="project-grid">
+        <div class="project-card" data-category="dashboard">
+          <div class="project-img-wrapper">
+            <img
+              src="./assets/Images/mountain.png"
+              alt="Mountain Breeze admin dashboard"
+              loading="lazy"
+            />
+            <div class="project-overlay">
+              <span class="status-badge">complete</span>
+              <p>
+                Admin dashboard for a hotel booking platform, built for managing
+                rooms, guests and reservations.
+              </p>
+              <div class="tech-stack">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://ramamalali.github.io/Hotel_dashboard/"
+                  class="project-link"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Live Demo <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a
+                  href="https://github.com/ramamalali/Hotel_dashboard"
+                  class="project-link code-link"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="fab fa-github"></i> View Code
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Mountain Breeze — Dashboard</h3>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="landing-page">
+          <div class="project-img-wrapper">
+            <img
+              src="./assets/Images/mountain.png"
+              alt="Mountain Breeze hotel website"
+              loading="lazy"
+            />
+            <div class="project-overlay">
+              <span class="status-badge">complete</span>
+              <p>
+                Elegant, responsive hotel website with room showcases and a
+                smooth booking experience.
+              </p>
+              <div class="tech-stack">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://ramamalali.github.io/hotel_webSite/"
+                  class="project-link"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Live Demo <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a
+                  href="https://github.com/ramamalali/hotel_webSite"
+                  class="project-link code-link"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="fab fa-github"></i> View Code
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Mountain Breeze — Hotel Website</h3>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="landing-page">
+          <div class="project-img-wrapper">
+            <img
+              src="./assets/Images/bas.png"
+              alt="Black Analysis Solution landing page"
+              loading="lazy"
+            />
+            <div class="project-overlay">
+              <span class="status-badge">complete</span>
+              <p>
+                Business landing page for a data analysis firm, designed to
+                build trust and generate leads.
+              </p>
+              <div class="tech-stack">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://ramamalali.github.io/BAS/"
+                  class="project-link"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Live Demo <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a
+                  href="https://github.com/ramamalali/BAS"
+                  class="project-link code-link"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="fab fa-github"></i> View Code
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Black Analysis Solution</h3>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="landing-page">
+          <div class="project-img-wrapper">
+            <img
+              src="./assets/Images/syriaherb.png"
+              alt="Syria Herbs landing page"
+              loading="lazy"
+            />
+            <div class="project-overlay">
+              <span class="status-badge">complete</span>
+              <p>
+                Natural products landing page highlighting Syrian herbs, built
+                with an earthy, organic feel.
+              </p>
+              <div class="tech-stack">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://ramamalali.github.io/syria-herb/"
+                  class="project-link"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Live Demo <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a
+                  href="https://github.com/ramamalali/syria-herb"
+                  class="project-link code-link"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="fab fa-github"></i> View Code
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Syria Herbs</h3>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="landing-page">
+          <div class="project-img-wrapper">
+            <img
+              src="./assets/Images/almukhtar.png"
+              alt="Al-Mukhtar Travel landing page"
+              loading="lazy"
+            />
+            <div class="project-overlay">
+              <span class="status-badge">complete</span>
+              <p>
+                Travel agency landing page showcasing tour packages and
+                destinations with a clean, inviting layout.
+              </p>
+              <div class="tech-stack">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://ramamalali.github.io/AL-Mukhtar/"
+                  class="project-link"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Live Demo <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a
+                  href="https://github.com/ramamalali/AL-Mukhtar"
+                  class="project-link code-link"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="fab fa-github"></i> View Code
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Al-Mukhtar Travel</h3>
+          </div>
+        </div>
+        <div class="project-card" data-category="dashboard">
+          <div class="project-img-wrapper">
+            <img
+              src="./assets/Images/geo.png"
+              alt="Geo Dashboard preview"
+              loading="lazy"
+            />
+            <div class="project-overlay">
+              <span class="status-badge">complete</span>
+              <p>
+                Data dashboard for visualizing geographic/location-based
+                information on interactive maps and charts.
+              </p>
+              <div class="tech-stack">
+                <span>React</span>
+                <span>Tailwind CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://ramamalali.github.io/dashboard-geo/"
+                  class="project-link"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Live Demo <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a
+                  href="https://github.com/ramamalali/dashboard-geo"
+                  class="project-link code-link"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="fab fa-github"></i> View Code
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Geo Dashboard</h3>
+          </div>
+        </div>
+        <div class="project-card" data-category="portfolio">
+          <div class="project-img-wrapper">
+            <img
+              src="./assets/Images/portfolio-style.png"
+              alt="Mac-style portfolio preview"
+              loading="lazy"
+            />
+            <div class="project-overlay">
+              <span class="status-badge">complete</span>
+              <p>
+                Personal portfolio built with a macOS-inspired interface —
+                windows, dock and playful desktop interactions.
+              </p>
+              <div class="tech-stack">
+                <span>React</span>
+                <span>Tailwind CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://ramamalali.github.io/macportfolio/"
+                  class="project-link"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Live Demo <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a
+                  href="https://github.com/ramamalali/macportfolio"
+                  class="project-link code-link"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="fab fa-github"></i> View Code
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Mac-Style Portfolio</h3>
+          </div>
+        </div>
+        <div class="project-card" data-category="landing-page">
+          <div class="project-img-wrapper">
+            <img
+              src="./assets/Images/syria travel.png"
+              alt="Syria Travel preview"
+              loading="lazy"
+            />
+            <div class="project-overlay">
+              <span class="status-badge">complete</span>
+              <p>
+                Tourism landing page promoting travel destinations and
+                experiences across Syria.
+              </p>
+              <div class="tech-stack">
+                <span>React</span>
+                <span>Tailwind CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://ramamalali.github.io/syria-travel/"
+                  class="project-link"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Live Demo <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a
+                  href="https://github.com/ramamalali/syria-travel"
+                  class="project-link code-link"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="fab fa-github"></i> View Code
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Syria Travel</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Case Studies -->
+    <section class="case-studies" id="case-studies" data-aos="fade-up">
+      <h2>Case Studies</h2>
+      <p class="section-subtitle">A closer look at how I approach real problems — not just the finished screenshot.</p>
+      <div class="case-study-grid">
+        <div class="case-study-card">
+          <img src="./assets/Images/mountain.png" alt="Mountain Breeze Dashboard case study" loading="lazy" />
+          <div class="case-study-body">
+            <h3>Mountain Breeze — Dashboard</h3>
+            <div class="case-study-row">
+              <strong>Problem</strong>
+              <p>The hotel client needed a dedicated admin dashboard to manage rooms, guests and reservations in one place, instead of handling everything manually.</p>
+            </div>
+            <div class="case-study-row">
+              <strong>Solution</strong>
+              <p>I built the dashboard solo, end-to-end, for this real client — covering room management, guest records and reservation tracking — and delivered it within about a month.</p>
+            </div>
+            <div class="case-study-row">
+              <strong>Challenge</strong>
+              <p>Handling image uploads for the room galleries inside the dashboard was one of the trickier parts to get working reliably.</p>
+            </div>
+            <div class="case-study-row">
+              <strong>Result</strong>
+              <p>Delivered a fully working dashboard to the client within roughly one month, built entirely on my own.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="case-study-card">
+          <img src="./assets/Images/almukhtar.png" alt="Al-Mukhtar Travel case study" loading="lazy" />
+          <div class="case-study-body">
+            <h3>Al-Mukhtar Travel</h3>
+            <div class="case-study-row">
+              <strong>Problem</strong>
+              <p>The travel agency client needed an online presence where customers could browse destinations and submit booking requests directly.</p>
+            </div>
+            <div class="case-study-row">
+              <strong>Solution</strong>
+              <p>I built the site solo, end-to-end, for this real client, and delivered it within about a month.</p>
+            </div>
+            <div class="case-study-row">
+              <strong>Challenge</strong>
+              <p>The booking flow needed to reliably handle a high volume of incoming customer requests without breaking down.</p>
+            </div>
+            <div class="case-study-row">
+              <strong>Result</strong>
+              <p>Delivered a working booking system to the client within roughly one month, built entirely on my own.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+
+    <!-- Experience / Timeline -->
+    <section class="experience" id="experience" data-aos="fade-up">
+      <h2>Experience & Learning Path</h2>
+      <p class="section-subtitle">
+        My journey from Front-End training to freelance development and project
+        coordination.
+      </p>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="timeline-date">May 2026 — Present</span>
+          <h3>Volunteer Project Coordinator, Orbit</h3>
+          <p>
+            Coordinating projects and bridging communication between team
+            members, alongside ongoing freelance development work.
+          </p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-date">January 2024 — Present</span>
+          <h3>Freelance Front-End / Full-Stack Developer</h3>
+          <p>
+            Building independent web projects — landing pages, dashboards and
+            business sites.
+          </p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-date">August 2023 — November 2024</span>
+          <h3>Front-End Team Member, Special Team (Technical Solutions)</h3>
+          <p>
+            Freelance/remote role applying Agile and Scrum practices,
+            collaborating with front-end, back-end and UI/UX team members to
+            deliver client solutions.
+          </p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-date">June 2023 — January 2024</span>
+          <h3>Front-End Developer & Training Supervisor, Focal X Agency</h3>
+          <p>
+            Built responsive interfaces with HTML, CSS, Bootstrap, JavaScript
+            and React.js, integrated RESTful APIs and Redux, and supervised a
+            group of Front-End trainees. Promoted to Team Leader in September
+            2023; awarded Employee of the Month in March 2023.
+          </p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-date">February — November 2023</span>
+          <h3>Full-Stack & Front-End Developer Training, Focal X Agency</h3>
+          <p>
+            Completed Full Stack Developer, Front-End (First Level) and
+            Front-End (Advanced Level) online courses.
+          </p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-date">2014 — 2019</span>
+          <h3>B.A.Sc. in Computer Technology, Damascus University</h3>
+          <p>Faculty of Applied Sciences, Damascus, Syria — GPA 75%.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section class="certifications" id="certifications" data-aos="fade-up">
+      <h2>Certifications</h2>
+      <p class="section-subtitle">
+        Online courses completed with Focal X Agency.
+      </p>
+      <div class="cert-grid">
+        <div class="cert-card">
+          <i class="fas fa-certificate"></i>
+          <div>
+            <h4>Full Stack Developer</h4>
+            <span>Focal X Agency — Feb 2023 to Nov 2023</span>
+          </div>
+        </div>
+        <div class="cert-card">
+          <i class="fas fa-certificate"></i>
+          <div>
+            <h4>Front-End Developer (Advanced Level)</h4>
+            <span>Focal X Agency — Jul 2023 to Nov 2023</span>
+          </div>
+        </div>
+        <div class="cert-card">
+          <i class="fas fa-certificate"></i>
+          <div>
+            <h4>Front-End Developer (First Level)</h4>
+            <span>Focal X Agency — Feb 2023 to Jun 2023</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section
+      class="contact"
+      id="contact"
+      data-aos="fade-up"
+      data-aos-delay="200"
+    >
+      <h2>Let's Collaborate</h2>
+      <p class="contact-text">
+        Have a project in mind or an idea to build? I'd love to hear about it.
+      </p>
+    
+      <div class="socials">
+          <a
+        href="mailto:rama.muhammed.alali@gmail.com"
+        class="btn btn-primary contact-email-btn"
+      >
+        <i class="fas fa-envelope"></i> 
+      </a>
+        <a
+          href="https://github.com/ramamalali"
+          target="_blank"
+          rel="noopener"
+          aria-label="GitHub"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/rama-muhammed-alali"
+          target="_blank"
+          rel="noopener"
+          aria-label="LinkedIn"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/dev.rama_alali"
+          target="_blank"
+          rel="noopener"
+          aria-label="Instagram"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2026 Rama Al-Ali — Front-End Developer</p>
+    </footer>
+
+    <script>
+      const body = document.body;
+      document.addEventListener("mousemove", (e) => {
+        const star = document.createElement("div");
+        star.className = "star";
+        star.style.left = `${e.clientX}px`;
+        star.style.top = `${e.clientY}px`;
+        body.appendChild(star);
+        setTimeout(() => star.remove(), 800);
+      });
+    </script>
+    <script>
+      (function () {
+        const root = document.documentElement;
+        const toggleBtn = document.getElementById("themeToggle");
+        const icon = toggleBtn ? toggleBtn.querySelector("i") : null;
+
+        function applyTheme(theme) {
+          root.setAttribute("data-theme", theme);
+          if (icon) {
+            icon.className = theme === "light" ? "fas fa-sun" : "fas fa-moon";
+          }
+        }
+
+        const saved = localStorage.getItem("portfolio-theme");
+        const prefersLight =
+          window.matchMedia &&
+          window.matchMedia("(prefers-color-scheme: light)").matches;
+        applyTheme(saved || (prefersLight ? "light" : "dark"));
+
+        if (toggleBtn) {
+          toggleBtn.addEventListener("click", () => {
+            const current =
+              root.getAttribute("data-theme") === "light" ? "dark" : "light";
+            applyTheme(current);
+            localStorage.setItem("portfolio-theme", current);
+          });
+        }
+      })();
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./assets/script.js"></script>
+    <script>
+      AOS.init({
+        duration: 800,
+        easing: "ease-in-out",
+        once: true,
+      });
+    </script>
+  </body>
+</html>
