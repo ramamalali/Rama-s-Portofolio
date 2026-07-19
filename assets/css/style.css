@@ -765,6 +765,7 @@ padding-inline: 2rem;
   color: var(--text);
 }
 
+
 @media (max-width: 768px) {
   .project-grid {
     grid-template-columns: 1fr;
@@ -782,7 +783,15 @@ padding-inline: 2rem;
     padding: 0.3rem 0.6rem;
     font-size: 0.8rem;
 }
-
+.project-info h3 {
+    font-size: 0.8rem;
+}
+}
+@media (max-width: 400px) {
+  .status-badge {
+    display: none;
+}
+}
 /* Contact */
 .contact-text {
   color: var(--text-muted);
