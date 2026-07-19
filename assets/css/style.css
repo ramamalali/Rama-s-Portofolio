@@ -684,7 +684,9 @@ padding-inline: 2rem;
   padding: 1rem;
   text-align: center;
 }
-
+.project-overlay p {
+  font-size: 11px;
+}
 [data-theme="light"] .project-overlay {
   background: rgba(255, 255, 255, 0.93);
 }
@@ -776,6 +778,9 @@ padding-inline: 2rem;
 
     height: 191px;
 }
+.project-link {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.8rem;
 }
 
 /* Contact */
